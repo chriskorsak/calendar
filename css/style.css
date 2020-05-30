@@ -1,0 +1,15 @@
+div.dayBoxes > div {
+  height: 100px;
+  background-color: azure;
+  border: 1px solid black;
+}
+
+.number {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  float: right;
+  display: block;
+  padding: 2px 5px;
+
+}
