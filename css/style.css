@@ -1,15 +1,24 @@
-div.dayBoxes > div {
-  height: 100px;
-  background-color: azure;
+div.dayBoxes > div, .monthGoals {
+  min-height: 100px;
+  background-color: #f3f3f3;
   border: 1px solid black;
+}
+
+#daysOfWeek h3, .monthGoals > h2 {
+  text-transform: uppercase;
 }
 
 .number {
   color: white;
-  background-color: black;
+  background-color: #464646;
   border-radius: 50%;
   float: right;
   display: block;
-  padding: 2px 5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
 
+.otherMonth {
+  background-color: #bebebe !important;
 }
